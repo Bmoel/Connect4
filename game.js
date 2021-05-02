@@ -408,6 +408,5 @@ function reset_all() {
     j = 0;
     model.board = "......./......./......./......./......./.......";
     model.next = "X";
-    console.clear();
     document.removeEventListener("click",final_click);
 }
